@@ -15,4 +15,4 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 
-setup(long_description=readme + '\n\n' + history)
+setup(name = "dj-stripe", version = "1.0.0", long_description=readme + '\n\n' + history)
